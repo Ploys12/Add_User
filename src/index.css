@@ -1,12 +1,28 @@
 #general{
-  display: inline-block;
+  display: block;
 }
 .apart_user{
-  background-color: aqua;
-  margin-left: 30px;
+  text-align: center;
+  color: #245078;
+  line-height: 12px;
+  background-color: rgb(49, 192, 192);
+  margin-left: 1%;
   margin-top: 50px;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 150px;
+  
+}
+h3{
+  padding: 0;
+  margin: 15px;
+}
+.flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.internal4ik{
+  max-width: 90%;
   
 }
 
@@ -17,4 +33,45 @@
 .icon{
   font-size: 25px;
   margin-left: 10px;
+  opacity: 0.5;
+}
+input{
+  background-color: #333;
+  color: #fff;
+}
+input, button, label {
+  margin-top: 20px;
+  
+}
+input:not([type="checkbox"]){
+  width: 250px;
+  height: 30px;
+  font-size: 15px;
+}
+label{
+  font-size: 20px;
+  margin-top: 25px;
+}
+.icon:hover{
+  color: #ffffff;
+}
+button#add{
+  background-color: #333;
+  color: #dadada;
+  width: 200px;
+  height: 50px;
+  margin-left: 20px;
+}
+button#add:hover{
+  transform: scale(1.1);
+  transition: 0.5s ease;
+}
+form.add_user{
+  position: absolute;
+  left: 75%;
+  top: 10%;
+
+}
+.add_user{
+  
 }
