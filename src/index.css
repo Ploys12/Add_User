@@ -8,8 +8,9 @@
   background-color: rgb(49, 192, 192);
   margin-left: 1%;
   margin-top: 50px;
-  width: 300px;
-  height: 150px;
+  min-width: 300px;
+  min-height: 150px;
+  
   
 }
 h3{
@@ -22,7 +23,7 @@ h3{
   flex-wrap: wrap;
 }
 .internal4ik{
-  max-width: 90%;
+  width: 90%;
   
 }
 
@@ -54,6 +55,7 @@ label{
 }
 .icon:hover{
   color: #ffffff;
+  transition: 0.5s ease;
 }
 button#add{
   background-color: #333;
@@ -71,7 +73,4 @@ form.add_user{
   left: 75%;
   top: 10%;
 
-}
-.add_user{
-  
 }
