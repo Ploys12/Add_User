@@ -5,17 +5,17 @@ class App extends React.Component{
   constructor(props){
     super(props)
     this.state = {users: [
-        {
+        { id: 1,
             first_name: 'Alexey',
             second_name: 'Beltyukov',
             age: 18,
             happiness: true
         },
-        {first_name: 'Artem',
+        {id: 2, first_name: 'Artem',
         second_name: 'Beltyukov',
         age: 28,
         happiness: false},
-        {first_name: 'Andrey',
+        {id: 3, first_name: 'Andrey',
         second_name: 'Beltyukov',
         age: 24,
         happiness: true}
